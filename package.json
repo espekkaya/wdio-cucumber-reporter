@@ -1,5 +1,5 @@
 {
-  "name": "wdio-cucumber-reporter",
+  "name": "@espekkaya/wdio-cucumber-reporter",
   "version": "1.0.0",
   "description": "webdriverio plugin of cucumber report",
   "main": "index.js",
@@ -17,7 +17,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/espekkaya/wdio-cucumber-reporter.git"
+    "url": "git+https://github.com/espekkaya/wdio-cucumber-reporter.git"
   },
   "homepage": "https://github.com/espekkaya/wdio-cucumber-reporter#readme",
   "bugs": {
@@ -25,5 +25,6 @@
   },
   "dependencies": {
     "@wdio/reporter": "^7.0.7"
-  }
+  },
+  "devDependencies": {}
 }
