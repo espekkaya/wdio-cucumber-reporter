@@ -1,0 +1,29 @@
+{
+  "name": "wdio-cucumber-reporter",
+  "version": "1.0.0",
+  "description": "webdriverio plugin of cucumber report",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cucumber",
+    "reporter",
+    "wdio-plugin",
+    "webdriverio",
+    "wdio-reporter"
+  ],
+  "author": "S. Enes Pekkaya <espekkaya@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/espekkaya/wdio-cucumber-reporter.git"
+  },
+  "homepage": "https://github.com/espekkaya/wdio-cucumber-reporter#readme",
+  "bugs": {
+    "url": "https://github.com/espekkaya/wdio-cucumber-reporter/issues"
+  },
+  "dependencies": {
+    "@wdio/reporter": "^7.0.7"
+  }
+}
