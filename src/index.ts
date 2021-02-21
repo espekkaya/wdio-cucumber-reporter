@@ -1,4 +1,4 @@
-import WDIOReporter from '@wdio/reporter'
+import WDIOReporter from '@wdio/reporter';
 
 const esc = {
     sp: '\u0020',
@@ -8,6 +8,7 @@ const esc = {
 let suiteEndOnce = true;
 
 export default class CucumberReporter extends WDIOReporter {
+
     constructor(options) {
         /*
          * make reporter to write to the output stream by default

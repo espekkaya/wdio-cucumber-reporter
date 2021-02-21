@@ -2,9 +2,9 @@
   "name": "@espekkaya/wdio-cucumber-reporter",
   "version": "1.0.1",
   "description": "webdriverio plugin of cucumber report",
-  "main": "cucumber-reporter.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "main": "./build/index",
+  "engines": {
+    "node": ">=12.0.0"
   },
   "keywords": [
     "cucumber",
@@ -24,7 +24,9 @@
     "url": "https://github.com/espekkaya/wdio-cucumber-reporter/issues"
   },
   "dependencies": {
-    "@wdio/reporter": "^7.0.7"
+    "@wdio/reporter": "7.0.7"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "ts-node": "^9.1.1"
+  }
 }
