@@ -19,6 +19,8 @@ npm install wdio-cucumber-reporter --save-dev
 Your wdio.conf.js file should look like this:
 
 ```js
+import CucumberReporter from '@espekkaya/wdio-cucumber-reporter';
+
 exports.config = {
     // ...
     reporters: [
