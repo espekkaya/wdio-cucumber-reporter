@@ -11,7 +11,7 @@ It was tested on Webdriverio v6 and v7.
 Firstly install in your devdependency
 
 ```bash
-npm install wdio-cucumber-reporter --save-dev
+npm install @espekkaya/wdio-cucumber-reporter --save-dev
 ```
 
 ## Configuration
