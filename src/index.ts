@@ -9,7 +9,7 @@ let suiteEndOnce = true;
 
 export default class CucumberReporter extends WDIOReporter {
 
-    constructor(options) {
+    constructor(options: any) {
         /*
          * make reporter to write to the output stream by default
          */
@@ -17,25 +17,25 @@ export default class CucumberReporter extends WDIOReporter {
         super(options)
     }
 
-    onSuiteStart(test) {
+    onSuiteStart(test: any) {
         if (test.type == "feature")
             process.stdout.write(`${esc.sp}${esc.sp}Feature: ${test.title}${esc.nl}`)
         else
             process.stdout.write(`${esc.sp}${esc.sp}${esc.sp}${esc.sp}Scenario: ${test.title}${esc.nl}`)
     }
 
-    onTestPass(test) {
+    onTestPass(test: any) {
         process.stdout.write(`✓ ${esc.sp}${esc.sp}${esc.sp}${esc.sp}${esc.sp}${esc.sp}${test.title}${esc.nl}`)
     }
 
-    onTestFail(test) {
+    onTestFail(test: any) {
         // process.stdout.write(`𐄂 ${esc.sp}${esc.sp}${esc.sp}${esc.sp}${esc.sp}${esc.sp}${test.title}${esc.nl}
         //     ${esc.nl}${esc.sp}${esc.sp}${esc.sp}${esc.sp}${esc.sp}${esc.sp}${test.error.message}${esc.nl}
         //     ${esc.nl}${esc.sp}${esc.sp}${esc.sp}${esc.sp}${esc.sp}${esc.sp}${test.error.stack}${esc.nl}
         // `)
     }
 
-    onTestSkip(test) {
+    onTestSkip(test: any) {
         process.stdout.write(`⎯ ${esc.sp}${esc.sp}${esc.sp}${esc.sp}${esc.sp}${esc.sp}${test.title}${esc.nl}`)
     }
 

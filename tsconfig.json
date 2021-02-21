@@ -1,4 +1,6 @@
 {
+    "extends": "@tsconfig/node12/tsconfig.json",
+
     "compilerOptions": {
         "allowJs": true,
         "declaration": true,
@@ -7,7 +9,7 @@
         "removeComments": false,
         "strictFunctionTypes": false,
         "lib": ["dom"],
-        "inlineSourceMap": true,
+        "inlineSourceMap": false,
         "baseUrl": ".",
         "outDir": "./build",
         "rootDir": "./src",
