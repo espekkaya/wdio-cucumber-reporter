@@ -1,6 +1,6 @@
 {
   "name": "@espekkaya/wdio-cucumber-reporter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "webdriverio plugin of cucumber report",
   "main": "cucumber-reporter.js",
   "scripts": {
